@@ -12,7 +12,7 @@ export const InputForm = (props) =>{
         onChange = {handleChangeValue}
         onKeyDown = {handleKeyDown}
         />
-    )
+    );
 };
 
 
