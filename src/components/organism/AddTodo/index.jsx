@@ -6,7 +6,7 @@ export const AddTodo = (props) => {
     const {inputValue,handleChangeValue,handleKeyDown} = props;
     return (
         <>
-        <h2 className={styles.inputValue}>
+        <h2 className={styles.inputValue}>{"ADD TODO"}</h2>
         <InputForm  
         type="text"
         placeholder={"New Todo"}
@@ -14,7 +14,6 @@ export const AddTodo = (props) => {
         handleChangeValue={onChangeValue}
         handleKeyDown={handleAddTodo} 
         />  
-        </h2>
         </>
     );
 };
